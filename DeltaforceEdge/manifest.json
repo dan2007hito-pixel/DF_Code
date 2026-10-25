@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Delta Force Code Helper",
+  "version": "1.1.0",
+  "description": "Nhập danh sách mã Delta Force, gửi tuần tự và tạm dừng khi cần.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://redeem.df.garena.sg/vi/cdkgarena.html*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

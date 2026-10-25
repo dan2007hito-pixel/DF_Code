@@ -1,0 +1,4 @@
+﻿# Local browser profile
+edge_profile/
+__pycache__/
+*.py[cod]
